@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 35: CREATE TABLE
+-- Evite consultar este arquivo antes de tentar os exercícios.

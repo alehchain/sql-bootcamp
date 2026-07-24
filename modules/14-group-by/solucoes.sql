@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 14: GROUP BY
+-- Evite consultar este arquivo antes de tentar os exercícios.

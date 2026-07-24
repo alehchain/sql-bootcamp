@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 19: FULL JOIN
+-- Evite consultar este arquivo antes de tentar os exercícios.

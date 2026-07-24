@@ -1,0 +1,22 @@
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Editores
+.vscode/
+.idea/
+*.swp
+
+# Arquivos temporários
+*.tmp
+*.log
+*.bak
+
+# Credenciais e ambientes locais
+.env
+.env.*
+*.local.sql
+
+# Exportações
+exports/
+reports/

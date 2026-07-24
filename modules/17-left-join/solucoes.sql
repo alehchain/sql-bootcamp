@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 17: LEFT JOIN
+-- Evite consultar este arquivo antes de tentar os exercícios.

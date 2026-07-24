@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 45: Packages
+-- Evite consultar este arquivo antes de tentar os exercícios.

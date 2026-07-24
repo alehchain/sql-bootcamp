@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 44: Functions
+-- Evite consultar este arquivo antes de tentar os exercícios.

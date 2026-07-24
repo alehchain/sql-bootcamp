@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 50: SAVEPOINT
+-- Evite consultar este arquivo antes de tentar os exercícios.

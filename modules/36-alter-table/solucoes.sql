@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 36: ALTER TABLE
+-- Evite consultar este arquivo antes de tentar os exercícios.

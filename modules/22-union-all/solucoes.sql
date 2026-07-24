@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 22: UNION ALL
+-- Evite consultar este arquivo antes de tentar os exercícios.

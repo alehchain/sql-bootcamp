@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 54: Sessions
+-- Evite consultar este arquivo antes de tentar os exercícios.

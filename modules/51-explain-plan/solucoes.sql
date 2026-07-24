@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 51: Explain Plan
+-- Evite consultar este arquivo antes de tentar os exercícios.

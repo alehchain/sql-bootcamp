@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 38: Views
+-- Evite consultar este arquivo antes de tentar os exercícios.

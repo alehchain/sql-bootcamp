@@ -1,0 +1,14 @@
+erDiagram
+    CLIENTES ||--o{ PEDIDOS : realiza
+    PEDIDOS ||--|{ ITENS_PEDIDO : possui
+    PRODUTOS ||--o{ ITENS_PEDIDO : compoe
+    CATEGORIAS ||--o{ PRODUTOS : classifica
+    FORNECEDORES ||--o{ PRODUTOS : fornece
+    TRANSPORTADORAS ||--o{ PEDIDOS : entrega
+    FUNCIONARIOS ||--o{ PEDIDOS : vende
+    FUNCIONARIOS ||--o{ FUNCIONARIOS : gerencia
+    PEDIDOS ||--o{ PAGAMENTOS : recebe
+    PRODUTOS ||--|| ESTOQUE : controla
+    PERFIS ||--o{ USUARIOS : autoriza
+    FUNCIONARIOS ||--o| USUARIOS : possui
+    USUARIOS ||--o{ AUDITORIA : gera

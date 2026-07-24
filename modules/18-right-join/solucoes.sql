@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 18: RIGHT JOIN
+-- Evite consultar este arquivo antes de tentar os exercícios.

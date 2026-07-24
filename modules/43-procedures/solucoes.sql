@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 43: Procedures
+-- Evite consultar este arquivo antes de tentar os exercícios.

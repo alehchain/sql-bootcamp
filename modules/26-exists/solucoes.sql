@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 26: EXISTS
+-- Evite consultar este arquivo antes de tentar os exercícios.

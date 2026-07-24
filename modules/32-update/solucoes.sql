@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 32: UPDATE
+-- Evite consultar este arquivo antes de tentar os exercícios.

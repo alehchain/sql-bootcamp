@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 42: Synonyms
+-- Evite consultar este arquivo antes de tentar os exercícios.

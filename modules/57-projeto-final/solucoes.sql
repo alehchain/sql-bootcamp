@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 57: Projeto Final
+-- Evite consultar este arquivo antes de tentar os exercícios.

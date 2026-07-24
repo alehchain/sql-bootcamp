@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 29: CTE
+-- Evite consultar este arquivo antes de tentar os exercícios.

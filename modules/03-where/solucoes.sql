@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 03: WHERE
+-- Evite consultar este arquivo antes de tentar os exercícios.

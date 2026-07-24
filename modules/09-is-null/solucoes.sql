@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 09: IS NULL
+-- Evite consultar este arquivo antes de tentar os exercícios.

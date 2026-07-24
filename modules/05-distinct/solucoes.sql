@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 05: DISTINCT
+-- Evite consultar este arquivo antes de tentar os exercícios.

@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 27: ANY
+-- Evite consultar este arquivo antes de tentar os exercícios.

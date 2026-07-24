@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 48: COMMIT
+-- Evite consultar este arquivo antes de tentar os exercícios.

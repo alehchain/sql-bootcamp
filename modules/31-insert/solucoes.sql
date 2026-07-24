@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 31: INSERT
+-- Evite consultar este arquivo antes de tentar os exercícios.

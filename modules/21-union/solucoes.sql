@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 21: UNION
+-- Evite consultar este arquivo antes de tentar os exercícios.

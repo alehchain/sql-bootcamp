@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 01: Introdução
+-- Evite consultar este arquivo antes de tentar os exercícios.

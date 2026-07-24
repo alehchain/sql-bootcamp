@@ -1,0 +1,2 @@
+-- Soluções comentadas do módulo 04: ORDER BY
+-- Evite consultar este arquivo antes de tentar os exercícios.
