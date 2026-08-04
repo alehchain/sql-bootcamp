@@ -112,7 +112,7 @@ O conteúdo utiliza principalmente **Oracle Database** e foi projetado para exec
 
 ## Como utilizar
 
-1. Execute os scripts em [`database/`](database/) na ordem indicada.
+1. Prepare o banco executando [`database/setup.sql`](database/setup.sql).
 2. Leia a teoria do módulo.
 3. Execute os exemplos no Oracle Live SQL.
 4. Resolva os exercícios sem consultar as respostas.
@@ -125,11 +125,33 @@ git clone https://github.com/alehchain/sql-bootcamp.git
 cd sql-bootcamp
 ```
 
-## Oracle Live SQL
+## Preparação do banco de dados
 
-Acesse o Oracle Live SQL, faça login, abra **SQL Worksheet** e execute:
+A forma mais rápida de preparar todo o ambiente é executar:
 
-1. `database/00-drop-objects.sql` — opcional, remove objetos existentes.
+[`database/setup.sql`](database/setup.sql)
+
+O arquivo cria automaticamente:
+
+- tabelas e constraints;
+- sequences;
+- dados fictícios;
+- views;
+- índices;
+- validações finais.
+
+### Execução no Oracle Live SQL
+
+1. Acesse o Oracle Live SQL.
+2. Faça login e abra uma **SQL Worksheet**.
+3. Copie todo o conteúdo de `database/setup.sql`.
+4. Cole no editor.
+5. Execute como script completo.
+6. Confirme a mensagem: `Ambiente do SQL Bootcamp criado com sucesso!`.
+
+Os scripts individuais continuam disponíveis na pasta [`database/`](database/) para estudo e execução separada:
+
+1. `database/00-drop-objects.sql` — remove objetos existentes.
 2. `database/01-schema.sql` — cria tabelas e constraints.
 3. `database/02-sequences.sql` — cria sequences.
 4. `database/03-seed-data.sql` — carrega os dados fictícios.
