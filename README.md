@@ -1,4 +1,4 @@
-# SQL Bootcamp — Do Básico ao Avançado com Oracle
+# SQL Bootcamp — Oracle
 
 <p align="center">
   <strong>Curso open source de SQL em português, orientado à prática e compatível com Oracle Live SQL.</strong>
