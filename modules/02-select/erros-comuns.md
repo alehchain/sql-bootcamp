@@ -1,3 +1,4 @@
-# Erros comuns — SELECT
+# Erros Comuns
 
-Este arquivo reunirá erros frequentes, mensagens do Oracle e formas de correção.
+## ORA-00904
+Coluna inválida.

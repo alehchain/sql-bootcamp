@@ -1,2 +1,2 @@
--- Soluções comentadas do módulo 02: SELECT
--- Evite consultar este arquivo antes de tentar os exercícios.
+-- Soluções
+SELECT * FROM CLIENTES;

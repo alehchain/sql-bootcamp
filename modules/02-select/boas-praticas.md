@@ -1,3 +1,3 @@
-# Boas práticas — SELECT
+# Boas Práticas
 
-As recomendações de legibilidade, segurança e performance serão documentadas neste arquivo.
+- Evite SELECT * em produção.

@@ -1,3 +1,3 @@
-# Desafio — SELECT
+# Desafios
 
-O desafio prático será adicionado durante o desenvolvimento completo deste módulo.
+1. Monte um catálogo de produtos usando SELECT.

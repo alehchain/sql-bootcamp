@@ -1,9 +1,4 @@
-# Exercícios — SELECT
+# Exercícios
 
-Os exercícios serão organizados por nível:
-
-- Fácil
-- Médio
-- Difícil
-
-Cada exercício conterá enunciado, objetivo e critérios de validação. As respostas ficarão em `solucoes.sql`.
+1. Liste todos os clientes.
+2. Liste código e nome dos clientes.
