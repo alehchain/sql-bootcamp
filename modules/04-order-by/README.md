@@ -1,23 +1,36 @@
 # Módulo 04 — ORDER BY
 
+> **Nível:** Iniciante  
+> **Tempo estimado:** 2 horas
+
 ## Objetivo
 
-Compreender e aplicar **ORDER BY** em consultas e cenários práticos utilizando Oracle Database.
+Ordenar resultados por uma ou várias colunas, em ordem crescente ou decrescente, incluindo controle de valores nulos.
 
 ## Conteúdo
 
-- [Teoria](teoria.md)
-- [Exemplos](exemplos.sql)
-- [Exercícios](exercicios.md)
-- [Desafios](desafios.md)
-- [Soluções](solucoes.sql)
-- [Boas práticas](boas-praticas.md)
-- [Erros comuns](erros-comuns.md)
+- `ASC` e `DESC`.
+- Múltiplas colunas.
+- Alias e posição.
+- `NULLS FIRST` e `NULLS LAST`.
+- Ordenação determinística.
 
-## Pré-requisitos
+## Exemplo
 
-Consulte os módulos anteriores e execute os scripts da pasta `database/`.
+```sql
+SELECT produto_id, nome, preco
+FROM produtos
+ORDER BY preco DESC;
+```
 
-## Status
+## Checklist
 
-> Estrutura criada na Etapa 1. O conteúdo didático completo será desenvolvido nas próximas etapas do projeto.
+- [ ] Ordenar crescente e decrescente.
+- [ ] Usar múltiplas colunas.
+- [ ] Ordenar por alias.
+- [ ] Controlar valores nulos.
+- [ ] Explicar por que não há ordem garantida sem `ORDER BY`.
+
+## Próximo módulo
+
+➡️ [Módulo 05 — DISTINCT](../05-distinct)

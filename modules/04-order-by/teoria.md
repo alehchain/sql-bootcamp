@@ -1,24 +1,53 @@
 # Teoria — ORDER BY
 
-## Objetivo de aprendizagem
-
-Ao final deste módulo, o aluno deverá compreender o propósito, a sintaxe e os principais cenários de uso de **ORDER BY**.
-
-## Conceitos
-
-Conteúdo detalhado será adicionado na etapa correspondente do roadmap.
+Sem `ORDER BY`, o banco não garante a ordem das linhas.
 
 ## Sintaxe
 
 ```sql
--- Sintaxe demonstrativa será adicionada neste módulo.
+SELECT coluna1, coluna2
+FROM tabela
+ORDER BY coluna1 ASC;
+```
+
+`ASC` é padrão. Para ordem decrescente, use `DESC`.
+
+## Múltiplas colunas
+
+```sql
+SELECT status, valor_total
+FROM pedidos
+ORDER BY status ASC, valor_total DESC;
+```
+
+A segunda coluna desempata a primeira.
+
+## Alias
+
+```sql
+SELECT nome, preco - custo AS margem
+FROM produtos
+ORDER BY margem DESC;
+```
+
+## Posição
+
+`ORDER BY 2` funciona, mas é menos legível e mais frágil que usar o nome.
+
+## Valores nulos
+
+```sql
+ORDER BY telefone ASC NULLS LAST
+```
+
+## Determinismo
+
+Para paginação, use desempate:
+
+```sql
+ORDER BY data_pedido DESC, pedido_id DESC
 ```
 
 ## Compatibilidade
 
-Serão documentadas diferenças relevantes entre Oracle, PostgreSQL, SQL Server e MySQL.
-
-## Links úteis
-
-- Documentação oficial do Oracle Database SQL Language Reference.
-- Guia do Oracle Live SQL em `docs/oracle-live-sql.md`.
+`ASC` e `DESC` são universais. `NULLS FIRST/LAST` é direto no Oracle e PostgreSQL; outros bancos podem exigir alternativas.

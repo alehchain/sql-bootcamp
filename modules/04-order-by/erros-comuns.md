@@ -1,3 +1,8 @@
 # Erros comuns — ORDER BY
 
-Este arquivo reunirá erros frequentes, mensagens do Oracle e formas de correção.
+- Acreditar que a chave primária garante ordem.
+- Usar alias inexistente.
+- Ordenar por posição e depois alterar o `SELECT`.
+- Esquecer desempate em paginação.
+- Ordenar texto esperando comportamento numérico.
+- Não qualificar colunas ambíguas em joins.

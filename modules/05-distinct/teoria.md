@@ -1,24 +1,46 @@
 # Teoria — DISTINCT
 
-## Objetivo de aprendizagem
+`DISTINCT` elimina linhas duplicadas do resultado, sem alterar a tabela.
 
-Ao final deste módulo, o aluno deverá compreender o propósito, a sintaxe e os principais cenários de uso de **DISTINCT**.
-
-## Conceitos
-
-Conteúdo detalhado será adicionado na etapa correspondente do roadmap.
-
-## Sintaxe
+## Uma coluna
 
 ```sql
--- Sintaxe demonstrativa será adicionada neste módulo.
+SELECT DISTINCT status
+FROM pedidos;
 ```
 
-## Compatibilidade
+## Várias colunas
 
-Serão documentadas diferenças relevantes entre Oracle, PostgreSQL, SQL Server e MySQL.
+```sql
+SELECT DISTINCT status, forma_pagamento
+FROM pagamentos;
+```
 
-## Links úteis
+A combinação inteira define a duplicidade.
 
-- Documentação oficial do Oracle Database SQL Language Reference.
-- Guia do Oracle Live SQL em `docs/oracle-live-sql.md`.
+## Expressões
+
+```sql
+SELECT DISTINCT preco - custo AS margem
+FROM produtos;
+```
+
+## NULL
+
+Múltiplos valores nulos na mesma combinação aparecem uma única vez no resultado distinto.
+
+## ORDER BY
+
+`DISTINCT` não ordena. Use `ORDER BY` explicitamente.
+
+## DISTINCT versus GROUP BY
+
+Podem produzir o mesmo conjunto simples, mas a intenção é diferente: `DISTINCT` elimina repetição; `GROUP BY` forma grupos para agregação.
+
+## Cuidado em joins
+
+Adicionar `DISTINCT` pode esconder uma condição de relacionamento incorreta. Primeiro revise cardinalidade e chaves.
+
+## Performance
+
+A eliminação de duplicidade pode exigir sort, hash, memória e espaço temporário.

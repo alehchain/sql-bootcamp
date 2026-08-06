@@ -1,3 +1,8 @@
 # Boas práticas — DISTINCT
 
-As recomendações de legibilidade, segurança e performance serão documentadas neste arquivo.
+- Use apenas quando a regra exigir unicidade.
+- Entenda que todas as colunas selecionadas formam a combinação.
+- Não use para esconder join incorreto.
+- Selecione somente colunas necessárias.
+- Ordene explicitamente.
+- Avalie custo em grandes volumes.
