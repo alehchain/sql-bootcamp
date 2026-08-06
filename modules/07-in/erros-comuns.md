@@ -1,3 +1,8 @@
 # Erros comuns — IN
 
-Este arquivo reunirá erros frequentes, mensagens do Oracle e formas de correção.
+- Esquecer aspas em textos.
+- Misturar números e textos.
+- Usar subquery com mais de uma coluna.
+- Usar `NOT IN` quando a subquery pode retornar `NULL`.
+- Criar listas enormes difíceis de manter.
+- Achar que `IN` ordena o resultado.

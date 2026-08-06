@@ -1,23 +1,31 @@
 # Módulo 07 — IN
 
+> **Nível:** Iniciante  
+> **Tempo estimado:** 3 horas  
+> **Ambiente:** Oracle Live SQL
+
 ## Objetivo
 
-Compreender e aplicar **IN** em consultas e cenários práticos utilizando Oracle Database.
-
-## Conteúdo
-
-- [Teoria](teoria.md)
-- [Exemplos](exemplos.sql)
-- [Exercícios](exercicios.md)
-- [Desafios](desafios.md)
-- [Soluções](solucoes.sql)
-- [Boas práticas](boas-praticas.md)
-- [Erros comuns](erros-comuns.md)
+Comparação com listas usando IN, NOT IN e subqueries.
 
 ## Pré-requisitos
 
-Consulte os módulos anteriores e execute os scripts da pasta `database/`.
+- Banco criado com `database/setup.sql`.
+- Módulos anteriores concluídos.
 
-## Status
+## Arquivos
 
-> Estrutura criada na Etapa 1. O conteúdo didático completo será desenvolvido nas próximas etapas do projeto.
+- `teoria.md`
+- `exemplos.sql`
+- `laboratorio.md`
+- `exercicios.md`
+- `desafios.md`
+- `solucoes.sql`
+- `boas-praticas.md`
+- `erros-comuns.md`
+- `quiz.md`
+- `referencias.md`
+
+## Roteiro
+
+Leia a teoria, execute uma consulta por vez, faça o laboratório, resolva exercícios e só depois consulte as soluções.

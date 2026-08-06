@@ -1,3 +1,8 @@
 # Erros comuns — LIKE
 
-Este arquivo reunirá erros frequentes, mensagens do Oracle e formas de correção.
+- Esquecer aspas no padrão.
+- Confundir `%` com `_`.
+- Esperar comparação case-insensitive automática.
+- Usar `LIKE` em números.
+- Esquecer que `NOT LIKE` não retorna valores `NULL`.
+- Pesquisar `%` literal sem `ESCAPE`.

@@ -1,24 +1,56 @@
 # Teoria — LIKE
 
-## Objetivo de aprendizagem
-
-Ao final deste módulo, o aluno deverá compreender o propósito, a sintaxe e os principais cenários de uso de **LIKE**.
-
-## Conceitos
-
-Conteúdo detalhado será adicionado na etapa correspondente do roadmap.
-
-## Sintaxe
+`LIKE` compara textos com padrões.
 
 ```sql
--- Sintaxe demonstrativa será adicionada neste módulo.
+SELECT cliente_id, nome
+FROM clientes
+WHERE nome LIKE 'A%';
 ```
 
-## Compatibilidade
+## Curingas
 
-Serão documentadas diferenças relevantes entre Oracle, PostgreSQL, SQL Server e MySQL.
+| Curinga | Significado | Exemplo |
+|---|---|---|
+| `%` | zero ou mais caracteres | `'A%'` |
+| `_` | exatamente um caractere | `'A___'` |
 
-## Links úteis
+## Padrões comuns
 
-- Documentação oficial do Oracle Database SQL Language Reference.
-- Guia do Oracle Live SQL em `docs/oracle-live-sql.md`.
+```sql
+-- Começa com Oracle
+WHERE nome LIKE 'Oracle%'
+
+-- Termina com 001
+WHERE sku LIKE '%001'
+
+-- Contém SQL
+WHERE nome LIKE '%SQL%'
+```
+
+## NOT LIKE
+
+```sql
+WHERE nome NOT LIKE 'A%'
+```
+
+## Maiúsculas e minúsculas
+
+No Oracle, a comparação normalmente respeita a capitalização:
+
+```sql
+WHERE UPPER(nome) LIKE 'ANA%'
+```
+
+## ESCAPE
+
+Use `ESCAPE` para pesquisar `%` ou `_` literalmente:
+
+```sql
+WHERE texto LIKE '%10\%%' ESCAPE '\'
+```
+
+## Performance
+
+`LIKE 'Oracle%'` pode aproveitar melhor um índice do que `LIKE '%Oracle%'`.
+Para igualdade exata, prefira `=`.
