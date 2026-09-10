@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 25: Subqueries
--- Evite consultar este arquivo antes de tentar os exercícios.

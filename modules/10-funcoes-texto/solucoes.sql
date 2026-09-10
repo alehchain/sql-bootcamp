@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 10: Funções de Texto
--- Evite consultar este arquivo antes de tentar os exercícios.

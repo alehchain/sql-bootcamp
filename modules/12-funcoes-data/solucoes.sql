@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 12: Funções de Data
--- Evite consultar este arquivo antes de tentar os exercícios.

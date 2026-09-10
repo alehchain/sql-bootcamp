@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 52: Performance
--- Evite consultar este arquivo antes de tentar os exercícios.

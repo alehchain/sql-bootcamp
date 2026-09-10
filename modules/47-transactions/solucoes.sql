@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 47: Transactions
--- Evite consultar este arquivo antes de tentar os exercícios.

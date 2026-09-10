@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 20: SELF JOIN
--- Evite consultar este arquivo antes de tentar os exercícios.

@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 08: BETWEEN
--- Evite consultar este arquivo antes de tentar os exercícios.

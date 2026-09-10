@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 55: Auditoria
--- Evite consultar este arquivo antes de tentar os exercícios.

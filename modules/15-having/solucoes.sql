@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 15: HAVING
--- Evite consultar este arquivo antes de tentar os exercícios.

@@ -1,2 +1,0 @@
--- Soluções
-SELECT * FROM CLIENTES;

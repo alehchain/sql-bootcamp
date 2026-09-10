@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 24: MINUS
--- Evite consultar este arquivo antes de tentar os exercícios.

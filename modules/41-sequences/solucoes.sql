@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 41: Sequences
--- Evite consultar este arquivo antes de tentar os exercícios.

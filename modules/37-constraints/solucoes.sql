@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 37: Constraints
--- Evite consultar este arquivo antes de tentar os exercícios.
