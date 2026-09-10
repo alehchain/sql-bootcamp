@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 46: Triggers
--- Evite consultar este arquivo antes de tentar os exercícios.

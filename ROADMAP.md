@@ -1,43 +1,35 @@
-# Roadmap
+# Roadmap — SQL Bootcamp
 
-## Fase 1 — Fundação
+O bootcamp foi simplificado para priorizar uma trilha curta, prática e progressiva.
 
-- [x] Documentação principal.
-- [x] Banco Loja Virtual.
-- [x] Scripts de criação e carga.
-- [x] Estrutura dos 57 módulos.
-- [x] Templates de contribuição.
+## Estrutura principal
 
-## Fase 2 — Fundamentos
+- [x] Banco fictício Loja Virtual.
+- [x] Módulo 01 — Fundamentos de SQL.
+- [x] Módulo 02 — Funções e Agregações.
+- [x] Módulo 03 — Joins e Operações de Conjunto.
+- [x] Módulo 04 — Consultas Avançadas.
+- [x] Módulo 05 — Manipulação de Dados.
+- [x] Módulo 06 — Estrutura do Banco e PL/SQL.
+- [x] Módulo 07 — Projeto Final.
+- [x] Exercícios e soluções incorporados aos módulos.
 
-- [ ] Módulos 01 a 10 completos.
-- [ ] 60 exercícios comentados.
+## Melhorias futuras
 
-## Fase 3 — Funções, agrupamentos e joins
+- [ ] Revisar todos os exemplos diretamente no Oracle Live SQL.
+- [ ] Adicionar mais desafios práticos baseados em cenários de negócio.
+- [ ] Criar um cheatsheet de SQL Oracle.
+- [ ] Criar um simulado final.
+- [ ] Adicionar exemplos pontuais de diferenças entre Oracle, PostgreSQL, SQL Server e MySQL.
 
-- [ ] Módulos 11 a 20 completos.
-- [ ] 70 exercícios comentados.
+## Fora do escopo
 
-## Fase 4 — SQL avançado
+A versão simplificada não pretende cobrir:
 
-- [ ] Módulos 21 a 30 completos.
-- [ ] 70 exercícios comentados.
+- transações e controle de `COMMIT`/`ROLLBACK`/`SAVEPOINT`;
+- análise de plano e tuning de performance;
+- locks e gerenciamento de sessões;
+- auditoria;
+- administração Oracle/DBA.
 
-## Fase 5 — DML, DDL e objetos Oracle
-
-- [ ] Módulos 31 a 46 completos.
-- [ ] 85 exercícios comentados.
-
-## Fase 6 — Administração e projeto final
-
-- [ ] Módulos 47 a 57 completos.
-- [ ] 60 exercícios comentados.
-- [ ] Dashboard e relatórios finais.
-
-## Evoluções futuras
-
-- [ ] Plano de estudos de 30, 60 e 90 dias.
-- [ ] Simulados para entrevistas.
-- [ ] Exercícios inspirados em certificações Oracle.
-- [ ] Ambiente opcional com Docker para outros SGBDs.
-- [ ] Versão em inglês.
+Esses assuntos podem ser tratados futuramente em repositórios ou trilhas especializadas, sem aumentar a quantidade de módulos deste bootcamp.

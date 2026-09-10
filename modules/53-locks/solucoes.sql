@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 53: Locks
--- Evite consultar este arquivo antes de tentar os exercícios.

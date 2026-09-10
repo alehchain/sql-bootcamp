@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 28: ALL
--- Evite consultar este arquivo antes de tentar os exercícios.

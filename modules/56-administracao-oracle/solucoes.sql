@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 56: Administração Oracle
--- Evite consultar este arquivo antes de tentar os exercícios.

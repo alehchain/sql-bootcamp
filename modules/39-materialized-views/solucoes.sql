@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 39: Materialized Views
--- Evite consultar este arquivo antes de tentar os exercícios.

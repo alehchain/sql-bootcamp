@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 13: CASE
--- Evite consultar este arquivo antes de tentar os exercícios.

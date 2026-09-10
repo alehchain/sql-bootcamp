@@ -1,3 +1,0 @@
-# Desafio — Explain Plan
-
-O desafio prático será adicionado durante o desenvolvimento completo deste módulo.

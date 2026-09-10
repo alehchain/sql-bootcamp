@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 49: ROLLBACK
--- Evite consultar este arquivo antes de tentar os exercícios.

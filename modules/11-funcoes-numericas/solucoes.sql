@@ -1,2 +1,0 @@
--- Soluções comentadas do módulo 11: Funções Numéricas
--- Evite consultar este arquivo antes de tentar os exercícios.
